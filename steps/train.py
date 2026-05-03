@@ -10,19 +10,15 @@ from model.model import get_nn_model, get_linear_model
 @step
 def train_model(X_train, y_train):
 
-    # Convert to tensors
     X_train_tensor = torch.tensor(X_train.values, dtype=torch.float32)
     y_train_tensor = torch.tensor(y_train.values.reshape(-1, 1), dtype=torch.float32)
 
-    # Input dimension (IMPORTANT)
     input_dim = X_train_tensor.shape[1]
     print(f"Input Dimension: {input_dim}")
 
-    # Models
     linear_model = get_linear_model(input_dim)
     nn_model = get_nn_model(input_dim)
 
-    # Training function
     def train(model):
         loss_fn = torch.nn.MSELoss()
         optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
@@ -36,7 +32,6 @@ def train_model(X_train, y_train):
 
         return loss.item()
 
-    # MLflow tracking
     with mlflow.start_run():
 
         linear_loss = train(linear_model)
