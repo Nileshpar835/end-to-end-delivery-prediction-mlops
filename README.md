@@ -129,7 +129,7 @@ delivery-prediction-mlops/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/delivery-prediction-mlops.git
+git clone https://github.com/nileshpar835/delivery-prediction-mlops.git
 cd delivery-prediction-mlops
 ```
 
