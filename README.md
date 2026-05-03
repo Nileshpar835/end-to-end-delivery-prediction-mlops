@@ -216,4 +216,4 @@ If you found this project helpful or interesting, please consider giving it a **
 
 ---
 
-> *"The goal is to turn data into information, and information into insight."* — Carly Fiorina
+> *"The goal is to turn data into information, and information into insight."* 
