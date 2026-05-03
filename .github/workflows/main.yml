@@ -16,4 +16,4 @@ jobs:
 
     - run: pip install -r requirements.txt
 
-    - run: python run_pipeline.py
+    - run: python pipelines.run_pipeline.py
