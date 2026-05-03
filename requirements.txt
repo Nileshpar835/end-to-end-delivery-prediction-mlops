@@ -1,0 +1,9 @@
+torch
+pandas
+scikit-learn
+mlflow
+zenml
+fastapi
+uvicorn
+streamlit
+requests

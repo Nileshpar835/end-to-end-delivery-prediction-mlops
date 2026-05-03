@@ -1,0 +1,23 @@
+artifact_path: file:///D:/delivery-prediction-mlops/mlruns/0/models/m-3ff95b2d16eb4df2b6df5fd837a52c35/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.6
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.11.0+cpu
+mlflow_version: 3.11.1
+model_id: m-3ff95b2d16eb4df2b6df5fd837a52c35
+model_size_bytes: 5849
+model_uuid: m-3ff95b2d16eb4df2b6df5fd837a52c35
+prompts: null
+run_id: f64932e91446415e9e9e4deb7738d1d8
+utc_time_created: '2026-05-03 03:54:11.105282'
