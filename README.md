@@ -15,6 +15,7 @@
 This project demonstrates a complete **end-to-end MLOps pipeline** for predicting delivery time using Machine Learning and Deep Learning.
 
 It covers the full lifecycle:
+![App Screenshot](app/image1.png)
 
 ```
 Data → Model → Pipeline → API → UI → Deployment (AWS)
